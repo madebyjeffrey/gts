@@ -52,7 +52,7 @@ AC_DEFINE_UNQUOTED(GTS_INTERFACE_AGE, $GTS_INTERFACE_AGE, [Interface age])
 AC_DEFINE_UNQUOTED(GTS_BINARY_AGE, $GTS_BINARY_AGE, [Binary age])
 
 dnl Initialize libtool
-AM_PROG_LIBTOOL
+LT_INIT
 
 dnl Initialize maintainer mode
 AM_MAINTAINER_MODE
