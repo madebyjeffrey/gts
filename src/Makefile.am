@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-INCLUDES = -I$(top_srcdir) -I$(includedir) -DG_LOG_DOMAIN=\"Gts\"
+AM_CPPFLAGS = -I$(top_srcdir) -I$(includedir) -DG_LOG_DOMAIN=\"Gts\"
 
 bin_SCRIPTS=gts-config
 

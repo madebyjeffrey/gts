@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-INCLUDES = -I$(top_srcdir) -I$(top_srcdir)/src -I$(includedir)\
+AM_CPPFLAGS = -I$(top_srcdir) -I$(top_srcdir)/src -I$(includedir)\
 	 -DG_LOG_DOMAIN=\"Gts-tools\"
 LDADD = $(top_builddir)/src/libgts.la -lm
 DEPS = $(top_builddir)/src/libgts.la

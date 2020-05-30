@@ -7,6 +7,8 @@ OSC_DIR=$(HOME)/local/src/osc/home:popinet/$(PACKAGE)-snapshot
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = gts.pc
 
+ACLOCAL_AMFLAGS = -I m4
+
 ChangeLog:
 	darcs changes > ChangeLog
 
