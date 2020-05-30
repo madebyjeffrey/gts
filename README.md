@@ -42,6 +42,7 @@ If you checked out GTS from sourceforge.net, you will need to have the
 gnu autoconf tools installed.  Generate the "configure" script with
 the following commands:
 
+libtoolize
 aclocal
 autoheader
 automake -a
